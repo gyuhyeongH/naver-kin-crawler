@@ -2,8 +2,7 @@ name: Crawl Naver Kin Popular
 
 on:
   schedule:
-    - cron: "*/1 * * * *" # 1분마다 실행 (테스트용)
-    # - cron: "*/30 * * * *" # 30분마다 실행 (UTC 기준)
+    - cron: "*/30 * * * *" # 30분마다 실행 (UTC 기준)
   workflow_dispatch: # 수동 실행도 가능
 
 jobs:
